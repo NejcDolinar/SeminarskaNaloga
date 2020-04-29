@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="kako narediti spletni server na rpi" content="">
+  <meta name="philip panić" content="">
+  <title>Zapis kode</title>
+  <link href="izdelava/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="izdelava/css/styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="d-flex" id="wrapper">
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading">Koda</div>
+      <div class="list-group list-group-flush">
+        <a href="index.html" class="list-group-item list-group-item-action bg-light">Predstavitvena stran</a>
+        <a href="#koda1" class="list-group-item list-group-item-action bg-light">Koda 1</a>
+        <a href="#koda2" class="list-group-item list-group-item-action bg-light">Koda 2</a>
+      </div>
+    </div>
+
+    <div id="page-content-wrapper">
+
+       <div id="koda1" class="container-fluid">
+        <table>
+            <tr>
+                <td>
+                    <img src="assets/img/portfolio/koda1.png" alt="">
+                </td>
+                <td class="topz">
+                    <p>Najprej sem sprogramiral  številčno tipkovnico gledena vrsticede gledena priključke. Potem sem gledena točke na ekranu, ki so razdeljene na vrste 1 in 2 po osem znakov. Potem sem nastavil zakasnitev na zaslonu da nebi prišlo do kakšnih napak. Potem sem nastavil možnost da lahko vnesem čas za timer in dodal čas poteka ko pride timer čas dokonca ,ki je 8000stotink, kar je 8sekund.</p>
+                </td>
+            </tr>
+        </table>
+      </div>
+      <div id="koda2" class="container-fluid">
+        <table>
+            <tr>
+                <td><img src="assets/img/portfolio/koda2.png" alt=""></td>
+                <td class="topz"> Nakoncu sem dodal da vsakič ko se čas osmih sekund izteče, se led ekran resetira in se spet prižge ura z že uštetimi osmimi sekundami. Primer uporabe: pritisenš zgornji gumb, vtipkaš željeni čas in pritisneš lojtro za potrditev.</td>
+            </tr>
+        </table>
+      
+
+          <footer>
+            <div>
+              <p class="m-0 text-center text-white small">2020 &copy; Nejc Dolinar</p>
+            </div>
+          </footer>
+    </div>
+    
+   
+
+  </div>
+  
+
+ 
+  <script src="izdelava/jquery/jquery.min.js"></script>
+  <script src="izdelava/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+
+</body>
+
+</html>
