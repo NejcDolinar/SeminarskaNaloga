@@ -1,0 +1,2 @@
+# SeminarskaNaloga
+Seminarska naloga VPO
